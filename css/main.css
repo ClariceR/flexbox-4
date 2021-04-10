@@ -99,19 +99,41 @@ textarea {
 html {
   background-color: #fff;
   height: 100%;
+  box-sizing: border-box;
 }
 
 body {
   font-family: 'Source Sans Pro', sans-serif;
   padding: 2em;
-  font-size: 1.25em;
+  font-size: 1.25rem;
   height: 100%;
+}
+
+.full-width {
+    padding: 0.3em 1.7em;
+}
+
+#subtext {
+    padding-bottom: 2.4em;
+}
+
+h1 {
+    color: #0068bf;
+    font-size: 3em;
+    line-height: 0.1em;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 1.3em;
 }
 
 .wrapper {
   /*add display:flex and set justify-content to space-between*/
   display: flex;
+  flex-flow: row;
   justify-content: space-between;
+  align-items: center;
   font-weight: 400;
 }
 
@@ -119,11 +141,11 @@ body {
   /*give the divs a width of 30%, add display:flex, set justify-content and align-items to center*/
   display: flex;
   justify-content: center;
-  align-items: baseline;
+  align-items: center;
   color: rgb(37, 36, 36);
   line-height: 1.5em;
-  font-size: 1.05em;
-  height: 12em;
+  font-size: 1em;
+  height: 6em;
   width: 30%;
   padding: 1.7em;
 }
@@ -131,6 +153,23 @@ body {
 .div-2 {
     border-left: 0.1em solid #2195f2;
     border-right: 0.1em solid #2195f2;
+}
+
+
+ul {
+    padding-top: 1.5em;
+    list-style: none;
+}
+
+ul li {
+    display: inline-block;
+    padding-right: 1.5em;
+}
+
+.material-icons-round {
+    color: #ffc400;
+    font-family: "Material Icons";
+    font-size: 1.5em;
 }
 
 
